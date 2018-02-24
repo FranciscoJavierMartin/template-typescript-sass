@@ -1,0 +1,36 @@
+{
+  "name": "template-typescript-sass",
+  "version": "1.0.0",
+  "description": "A template to start a project with TypeScript, Sass and Gulp.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server --baseDir='docs'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranciscoJavierMartin/template-typescript-sass.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Sass",
+    "Gulp.js"
+  ],
+  "author": "Francisco Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FranciscoJavierMartin/template-typescript-sass/issues"
+  },
+  "homepage": "https://github.com/FranciscoJavierMartin/template-typescript-sass#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
+    "lite-server": "^2.3.0",
+    "typescript": "^2.7.2"
+  }
+}
